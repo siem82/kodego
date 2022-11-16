@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Media Queries Output</title>
+            <meta charset="UTF-8">
+
+        <style>
+
+            header{
+                background-color: rgb(133, 189, 133);
+                padding: 20px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            nav{
+                padding: 15px;
+                background-color: rgb(26, 24, 24);
+                display: flex;
+                justify-content: flex-start;
+                gap: 20px;
+                
+
+            }
+
+            a{
+                font-family:'Times New Roman', Times, serif;
+                color: white;
+                text-decoration: none
+                
+            
+            }
+
+            .container{
+                display: flex;
+                
+            }
+
+            section{
+                border: solid 1px black;
+                padding: 10px;
+            }
+
+           
+
+            @media screen and (max-width: 600px) {
+                header{
+                    background-color: red;
+                }
+
+                section.business{
+                    display: none;
+                }
+                section.sports{
+                    display: none;
+                }
+            }
+
+            @media screen and (min-width: 601px) and (max-width: 800px){
+                header{
+                    background-color: blue;
+                }
+
+                section.sports{
+                    display: none;
+                }
+
+               
+            }
+
+            @media screen and (min-width: 801px)and (max-width: 1500px) {
+                header{
+                    background-color: orange;
+                }
+
+              
+            }
+
+            
+
+            
+
+          
+
+            
+
+        </style>
+    </head>
+
+    <body>
+            <header>
+                <center><p>Online Magazine</p></center>
+            </header>
+
+            <nav>
+                <a href=" ">Home</a>
+                <a href=" ">About Us</a>
+                <a href=" ">Contact Us</a>
+            </nav>
+           
+
+            <main class="container">
+
+                <section class="life">
+                    <h2>Lifestyle</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nisi nulla quod officia earum accusamus eveniet sapiente, sed ipsum, corrupti est, consequuntur perferendis quam veritatis. Deleniti provident nobis minus similique.</p>
+                </section>
+
+                <section class="business">
+                    <h2>Business</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi, dolor in amet nulla laboriosam illum voluptatem accusantium, sed voluptas minima facilis nisi ducimus aliquam nemo pariatur minus perspiciatis labore?</p>
+                </section>
+
+                <section class="sports">
+                    <h2>Sports</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt obcaecati quae? Quidem quam odit voluptates molestiae, nobis magni mollitia minus ad dolorem laudantium voluptatibus adipisci, nemo ea aspernatur deserunt!</p>
+                </section>
+
+            </main>
+
+     </body>
+    
+</html>

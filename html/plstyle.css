@@ -1,0 +1,41 @@
+aside{
+
+    width: 15%;
+    padding-right: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #aaa;
+    height: 200px;
+    padding-left: 10px;
+}
+
+nav{
+
+    width: 15%;  
+    float: left;
+    font-style: italic;
+    background-color: #aaa;
+    height: 200px;
+    padding-left: 10px;
+
+  }
+
+  article{
+
+    background-color: #eee;
+    width: 90%;
+    text-align: justify;
+    height: 200px;
+
+
+  }
+
+
+  section{
+    background-color: green;
+  }
+
+  footer{
+    background-color: #b5dcb3;
+    clear: both;
+  }

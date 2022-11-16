@@ -1,0 +1,68 @@
+header{
+    height: 100px;
+    background-color: #90c52e;
+    margin-bottom:50px;
+    margin-left: 30px;
+}
+
+
+
+
+footer{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #90c52e;
+    margin-left: 30px;
+    clear: both;
+
+}
+
+.first{
+    display: flex;
+    margin-left: 30px;
+    background-color: #F5F4D8;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    
+
+    
+}
+
+.rightcontent{
+    margin-left: 30px;
+    
+}
+
+
+.container{
+    display: flex;
+    
+}
+
+.Aside{
+    width: 300px;
+    background-color: #F5F4D8;
+    margin-left: 10px;
+    
+}
+
+.Nav{
+    width: 300px;
+    background-color: #D2E4CF;
+    
+}
+
+#btn{
+    margin-top: 100px;
+    
+}
+
+.regform{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+}
